@@ -54,6 +54,7 @@ When `ls` was used with a path to a file as an argument, the path used as an arg
 
 
 ```
+By using `cat` without any argurments in the home directory, the command reads from the terminal because it has no files to read. The command prints back what is types in the terminal, so when I pressed enter to create a new line, the command printed another line as well.
 
 
 
