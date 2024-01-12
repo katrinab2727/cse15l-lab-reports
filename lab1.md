@@ -27,6 +27,10 @@ With home being the working directory at the time of the command, an error messa
 
 **No Arguments**
 ```
+[user@sahara ~]$ ls
+lecture1
+```
+
 
 
 
