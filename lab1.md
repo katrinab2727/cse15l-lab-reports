@@ -30,7 +30,7 @@ With home being the working directory at the time of the command, an error messa
 [user@sahara ~]$ ls
 lecture1
 ```
-
+Becuase the current directory was home when `ls` was used and no arguments were used, it listed the files in the home directory, showing lecture1.
 
 
 
