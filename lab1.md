@@ -39,6 +39,12 @@ Hello.class  Hello.java  messages  README
 ```
 Even though the working directory was home, `ls` listed the files in the lecture1 directory because lecture1 was used as an arugment.
 
+**Path to a File as an Argument**
+```
+[user@sahara ~]$ ls lecture1/messages/en-us.txt
+lecture1/messages/en-us.txt
+```
+
 
 
 
