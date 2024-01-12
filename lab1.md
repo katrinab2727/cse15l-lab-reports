@@ -49,6 +49,11 @@ When `ls` was used with a path to a file as an argument, the path used as an arg
 ## `cat` Command
 
 **No Arguments**
+```
+[user@sahara ~]$ cat
+
+
+```
 
 
 
