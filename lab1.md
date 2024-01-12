@@ -44,6 +44,7 @@ Even though the working directory was home, `ls` listed the files in the lecture
 [user@sahara ~]$ ls lecture1/messages/en-us.txt
 lecture1/messages/en-us.txt
 ```
+When `ls` was used with a path to a file as an argument, the path used as an argument was the output. The command is used to print out the files for a directory, so the path to the file was printed as a replacement. The working directory when the command was used was once again home.
 
 
 
