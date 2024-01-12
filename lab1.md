@@ -21,7 +21,7 @@ The working directory was home before the command was run. When a path to a dire
 [user@sahara ~]$ cd lecture1/messages/en-us.txt
 bash: cd: lecture1/messages/en-us.txt: Not a directory
 ```
-The working directory was home when the command was run. An error message was outputted because `cd` can only take in arguments that are directories, so the path must lead to a directory. Since the path lead to a file, an error occured because the working directory can not be changed to a file.
+With home being the working directory at the time of the command, an error message was outputted because `cd` can only take in arguments that are directories, so the path must lead to a directory. Since the path lead to a file, an error occured because the working directory can not be changed to a file.
 
 
 
