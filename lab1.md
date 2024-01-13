@@ -56,6 +56,20 @@ When `ls` was used with a path to a file as an argument, the path used as an arg
 ```
 By using `cat` without any argurments in the home directory, the command reads from the terminal because it has no files to read. The command prints back what is types in the terminal, so when I pressed enter to create a new line, the command printed another line as well.
 
+**Path to a Directory as an Argument**
+```
+[user@sahara ~]$ cat lecture1
+cat: lecture1: Is a directory
+```
+Using the command on a directory causes as error because `cat` is used to concatenate files together, which can not be done with a directory. The current directory was home when the command was run.
+
+**Path to a File as an Argument**
+```
+[user@sahara ~]$ cat lecture1/messages/en-us.txt
+Hello World!
+```
+The working directory was home, so a path to a file was used as an argument. `cat` then outputted what was in the en-us.txt file. Since only one file was used, the file was concatenatted to nothing printed into the terminal.
+
 
 
 
