@@ -1,4 +1,4 @@
-# Lab 1 Report
+++++++++++++++++# Lab 1 Report
 
 ## `cd` Command
 
@@ -30,7 +30,7 @@ With home being the working directory at the time of the command, an error messa
 [user@sahara ~]$ ls
 lecture1
 ```
-Becuase the current directory was home when `ls` was used with no arguments, it listed the files in the home directory, showing lecture1.
+Becuase the current directory was home when `ls` was used with no arguments, it listed the files and directories in the home directory, showing lecture1.
 
 **Path to a Directory as an Argument**
 ```
