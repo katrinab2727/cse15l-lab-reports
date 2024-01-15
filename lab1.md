@@ -37,7 +37,7 @@ Because the current directory was `home` when `ls` was used with no arguments, i
 [user@sahara ~]$ ls lecture1
 Hello.class  Hello.java  messages  README
 ```
-Even though the working directory was `home`, `ls` listed the files and directories in the `lecture1` directory because `lecture1` was used as an arugment.
+Even though the working directory was `home`, `ls` listed the files and directories in the `lecture1` directory because `lecture1` was used as an argument.
 
 **Path to a File as an Argument**
 ```
