@@ -1,4 +1,4 @@
-++++++++++++++++# Lab 1 Report
+# Lab 1 Report
 
 ## `cd` Command
 
