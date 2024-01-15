@@ -14,7 +14,7 @@ The working directory was lecture1 when `cd` was run. Using `cd` without an argu
 [user@sahara ~]$ cd lecture1
 [user@sahara ~/lecture1]$
 ```
-The working directory was home before the command was run. When a path to a directory is used as an argument for `cd`, the working directory is changed to the directory directed in the path. In this case, the path was only to lecture1, so the current directory was changed to lecture1.
+The working directory was home when the command was run. When a path to a directory is used as an argument for `cd`, the working directory is changed to the directory directed in the path. In this case, the path was only to lecture1, so the current directory was changed to lecture1.
 
 **Path to a File as an Argument**
 ```
