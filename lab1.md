@@ -37,7 +37,7 @@ Becuase the current directory was home when `ls` was used with no arguments, it 
 [user@sahara ~]$ ls lecture1
 Hello.class  Hello.java  messages  README
 ```
-Even though the working directory was home, `ls` listed the files in the lecture1 directory because lecture1 was used as an arugment.
+Even though the working directory was home, `ls` listed the files and directories in the lecture1 directory because lecture1 was used as an arugment.
 
 **Path to a File as an Argument**
 ```
@@ -68,7 +68,7 @@ Using the command on a directory causes as error because `cat` is used to concat
 [user@sahara ~]$ cat lecture1/messages/en-us.txt
 Hello World!
 ```
-The working directory was home, so a path to a file was used as an argument. `cat` then outputted what was in the en-us.txt file. Since only one file was used, the file was concatenatted to nothing printed into the terminal.
+The working directory was home, so a path to a file was used as an argument. `cat` then outputted what was in the en-us.txt file. Since only one file was used, the file was concatenatted to nothing and printed its contents into the terminal.
 
 
 
