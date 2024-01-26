@@ -30,14 +30,14 @@ With `/home` being the working directory at the time of the command, an error me
 [user@sahara ~]$ ls
 lecture1
 ```
-Because the current directory was `/home` when `ls` was used with no arguments, it listed the files and directories in the `home` directory, showing `lecture1`.
+Because the current directory was `/home` when `ls` was used with no arguments, it listed the files and directories in the `/home` directory, showing `lecture1`.
 
 **Path to a Directory as an Argument**
 ```
 [user@sahara ~]$ ls lecture1
 Hello.class  Hello.java  messages  README
 ```
-Even though the working directory was `/home`, `ls` listed the files and directories in the `lecture1` directory because `lecture1` was used as an argument.
+Even though the working directory was `/home`, `ls` listed the files and directories in the `/home/lecture1` directory because `lecture1` was used as an argument.
 
 **Path to a File as an Argument**
 ```
