@@ -7,7 +7,7 @@
 [user@sahara ~/lecture1]$ cd
 [user@sahara ~]$
 ```
-The working directory was `/home/lecture1` when `cd` was run. Using `cd` without an argument sets the working directory to `/home`, so the current directory was changed from `l/home/ecture1` to `/home`.
+The working directory was `/home/lecture1` when `cd` was run. Using `cd` without an argument sets the working directory to `/home`, so the current directory was changed from `/home/lecture1` to `/home`.
 
 **Path to a Directory as an Argument**
 ```
