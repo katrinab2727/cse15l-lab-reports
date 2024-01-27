@@ -17,4 +17,11 @@ Here is how the web server works when using `/add-message?s=Hello&user=jpolitz`:
 
 **Methods Called**
 * `handleRequest(URI url)`: Takes in a URI parameter 
-
+* `url.getQuery()`:
+* `url.getPath()`:
+* `url.getPath().contains("/add-message")`:
+* `query.substring(2, query.indexOf("&"))`:
+* `query.substring(query.indexOf("&") + 6, query.length)`
+* `String.format(list)`:
+* `Integer.parseInt(args[0])`:
+* `Server.start(port, new Handler())`:
