@@ -16,3 +16,5 @@ Here is how the web server works when using `/add-message?s=Hello&user=jpolitz`
 <img width="641" alt="image" src="https://github.com/katrinab2727/cse15l-lab-reports/assets/149338452/279a1b19-720c-4a14-b5d7-20ee741b2795">
 
 **Methods Called**
+* `handleRequest(URI url)`:
+
