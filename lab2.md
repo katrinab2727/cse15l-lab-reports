@@ -19,5 +19,5 @@ jpolitz: Hello
 
 Here is the code for `ChatServer`
 
-<img width="593" alt="image" src="https://github.com/katrinab2727/cse15l-lab-reports/assets/149338452/e21d5c97-29a2-499b-ba73-4ed784ac3c7d">
+<img width="607" alt="image" src="https://github.com/katrinab2727/cse15l-lab-reports/assets/149338452/12bab86b-9082-428a-bd08-1b1e46cbe6a6">
 
