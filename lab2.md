@@ -11,6 +11,8 @@ Here is the code for `ChatServer`:
 
 <img width="607" alt="image" src="https://github.com/katrinab2727/cse15l-lab-reports/assets/149338452/12bab86b-9082-428a-bd08-1b1e46cbe6a6">
 
+<br>
+
 Here is how the web server works when using `/add-message?s=Hello&user=jpolitz`:
 
 <img width="641" alt="image" src="https://github.com/katrinab2727/cse15l-lab-reports/assets/149338452/279a1b19-720c-4a14-b5d7-20ee741b2795">
@@ -25,6 +27,8 @@ Here is how the web server works when using `/add-message?s=Hello&user=jpolitz`:
 * `String.format(list)`:
 * `Integer.parseInt(args[0])`:
 * `Server.start(port, new Handler())`:
+
+<br>
 
 Here is how the web server works when using `/add-message?s=Hey&user=kbosler`:
 <img width="596" alt="image" src="https://github.com/katrinab2727/cse15l-lab-reports/assets/149338452/94d19f80-d55c-4267-ad05-e697f56117c5">
