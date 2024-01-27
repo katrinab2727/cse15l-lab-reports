@@ -26,5 +26,5 @@ Here is how the web server works when using `/add-message?s=Hello&user=jpolitz`:
 * `Integer.parseInt(args[0])`:
 * `Server.start(port, new Handler())`:
 
-Here is how the web server works when using `/add-message?s=Hey&user=kbosler`
+Here is how the web server works when using `/add-message?s=Hey&user=kbosler`:
 <img width="596" alt="image" src="https://github.com/katrinab2727/cse15l-lab-reports/assets/149338452/94d19f80-d55c-4267-ad05-e697f56117c5">
