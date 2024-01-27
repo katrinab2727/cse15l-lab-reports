@@ -17,7 +17,7 @@ then the page shows:
 jpolitz: Hello
 ```
 
-Here is the code for `ChatServer`  <br> 
- <br> 
+Here is the code for `ChatServer`
+
 <img width="593" alt="image" src="https://github.com/katrinab2727/cse15l-lab-reports/assets/149338452/e21d5c97-29a2-499b-ba73-4ed784ac3c7d">
 
