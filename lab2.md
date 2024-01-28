@@ -48,5 +48,5 @@ Here is how the web server works when using `/add-message?s=Hey&user=kbosler`:
 * `String.format(list)`: Returns the formatted `String`, which in this case, returns `list` as is that contains all the chats and users in the web server
 
 **Values**
-* `int port 4000` (same port
+* `int port 4000` (same port)
 * `URI url = https://0-0-0-0-4000-j272bidijnptkom0kott8e0i5s.us.edusercontent.com/add-message?s=Hey&user=kbosler`
