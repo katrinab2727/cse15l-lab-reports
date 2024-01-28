@@ -64,4 +64,7 @@ Here is what the web server shows when using `/add-message?s=Hey&user=kbosler`:
 Before this request was made, the values of the fields were what they were before as stated above.
 
 ## Part 2 - SSH
+**Absolute Path to the Private Key for my SSH key for logging into `ieng6`**
+<img width="458" alt="image" src="https://github.com/katrinab2727/cse15l-lab-reports/assets/149338452/562d56e8-d37d-4165-b58d-3b8d5284dde2">
+
 
