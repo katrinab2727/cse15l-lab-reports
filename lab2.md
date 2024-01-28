@@ -28,6 +28,9 @@ Here is how the web server works when using `/add-message?s=Hello&user=jpolitz`:
 * `Integer.parseInt(args[0])`: Used to turn the input from the terminal that represents the port number to an `Integer`
 * `Server.start(port, new Handler())`: Used to start the server by using the given port number while creating a new `Handler` object for the server
 
+**Values**
+* hiiiiii
+* 
 <br>
 
 Here is how the web server works when using `/add-message?s=Hey&user=kbosler`:
@@ -41,3 +44,6 @@ Here is how the web server works when using `/add-message?s=Hey&user=kbosler`:
 * `query.substring(2, query.indexOf("&"))`: Retrieves the `String` from index 2 to the index of "&" in the query, representing the message to be shown in the chat
 * `query.substring(query.indexOf("&") + 6, query.length)`: Retrieves the `String` from the index of "&" + 6 to get rid of the user part of the query to get the username to be shown in the chat
 * `String.format(list)`: Returns the formatted `String`, which in this case, returns `list` as is that contains all the chats and users in the web server
+
+**Values**
+* HIIIII
