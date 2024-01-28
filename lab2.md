@@ -18,15 +18,15 @@ Here is how the web server works when using `/add-message?s=Hello&user=jpolitz`:
 <img width="641" alt="image" src="https://github.com/katrinab2727/cse15l-lab-reports/assets/149338452/279a1b19-720c-4a14-b5d7-20ee741b2795">
 
 **Methods Called**
-* `handleRequest(URI url)`: Takes in a URI parameter 
-* `url.getQuery()`:
-* `url.getPath()`:
-* `url.getPath().contains("/add-message")`:
-* `query.substring(2, query.indexOf("&"))`:
-* `query.substring(query.indexOf("&") + 6, query.length)`
-* `String.format(list)`:
-* `Integer.parseInt(args[0])`:
-* `Server.start(port, new Handler())`:
+* `handleRequest(URI url)`: Takes in a URI parameter where the path and query are located
+* `url.getQuery()`: Retrieves the query from the url, which is the part of the url after the `?`
+* `url.getPath()`: Retrieves the path from the url
+* `url.getPath().contains("/add-message")`: Checks if the path retrieved from the url contains "/add-message" that is needed for the server to function properly
+* `query.substring(2, query.indexOf("&"))`: Retrieves the `String` from index 2 to the index of "&" in the query, representing the message to be shown in the chat
+* `query.substring(query.indexOf("&") + 6, query.length)`: Retrieves the `String` from the index of "&" + 6 to get rid of the user part of the query to get the username to be shown in the chat
+* `String.format(list)`: Returns the formatted `String`, which in this case, returns `list` as is that contains all the chats and users in the web server
+* `Integer.parseInt(args[0])`: Used to turn the input from the terminal that represents the port number to an `Integer`
+* `Server.start(port, new Handler())`: Used to start the server by using the given port number while creating a new `Handler` object for the server
 
 <br>
 
