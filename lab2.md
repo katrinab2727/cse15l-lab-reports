@@ -13,7 +13,7 @@ Here is the code for `ChatServer`:
 
 <br>
 
-Here is how the web server works when using `/add-message?s=Hello&user=jpolitz`:
+Here is what the web server shows when using `/add-message?s=Hello&user=jpolitz`:
 
 <img width="653" alt="image" src="https://github.com/katrinab2727/cse15l-lab-reports/assets/149338452/301d19b4-619f-43fd-91d9-23d5097879e3">
 
@@ -38,7 +38,7 @@ Here is how the web server works when using `/add-message?s=Hello&user=jpolitz`:
 * `String list = "jpolitz: Hello\n"`
 <br>
 
-Here is how the web server works when using `/add-message?s=Hey&user=kbosler`:
+Here is what the web server shows when using `/add-message?s=Hey&user=kbosler`:
 <img width="634" alt="image" src="https://github.com/katrinab2727/cse15l-lab-reports/assets/149338452/ba957602-713a-4357-ad87-dcf127469dad">
 
 
