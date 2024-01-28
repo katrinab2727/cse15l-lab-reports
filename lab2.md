@@ -65,6 +65,23 @@ Before this request was made, the values of the fields were what they were befor
 
 ## Part 2 - SSH
 **Absolute Path to the Private Key for my SSH key for logging into `ieng6`**
-<img width="458" alt="image" src="https://github.com/katrinab2727/cse15l-lab-reports/assets/149338452/562d56e8-d37d-4165-b58d-3b8d5284dde2">
+
+<img width="388" alt="image" src="https://github.com/katrinab2727/cse15l-lab-reports/assets/149338452/b5f94be3-75d8-41db-8b4d-0be04cef7664">
+
+<br>
+
+**Absolute Path to the Public key for my SSH key for logging into `ieng6`**
+
+<img width="388" alt="image" src="https://github.com/katrinab2727/cse15l-lab-reports/assets/149338452/b4a58653-e9a4-4d51-8568-50f30c531db4">
+
+
+<br>
+
+**Logging into my `ieng6` account without being asked for a password**
+<img width="439" alt="image" src="https://github.com/katrinab2727/cse15l-lab-reports/assets/149338452/a9d74b63-b826-4080-8338-585279967541">
+
+
+
+
 
 
