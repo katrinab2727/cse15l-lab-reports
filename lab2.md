@@ -64,13 +64,13 @@ Here is what the web server shows when using `/add-message?s=Hey&user=kbosler`:
 Before this request was made, the values of the fields were what they were before as stated above.
 
 ## Part 2 - SSH
-**Absolute Path to the Private Key for my SSH key for logging into `ieng6`**
+**Absolute Path to my Private Key**
 
 <img width="388" alt="image" src="https://github.com/katrinab2727/cse15l-lab-reports/assets/149338452/b5f94be3-75d8-41db-8b4d-0be04cef7664">
 
 <br>
 
-**Absolute Path to the Public key for my SSH key for logging into `ieng6`**
+**Absolute Path to my Public key**
 
 <img width="388" alt="image" src="https://github.com/katrinab2727/cse15l-lab-reports/assets/149338452/b4a58653-e9a4-4d51-8568-50f30c531db4">
 
