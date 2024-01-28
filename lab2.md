@@ -32,3 +32,12 @@ Here is how the web server works when using `/add-message?s=Hello&user=jpolitz`:
 
 Here is how the web server works when using `/add-message?s=Hey&user=kbosler`:
 <img width="596" alt="image" src="https://github.com/katrinab2727/cse15l-lab-reports/assets/149338452/94d19f80-d55c-4267-ad05-e697f56117c5">
+
+**Methods Called**
+* `handleRequest(URI url)`: Takes in a URI parameter where the path and query are located
+* `url.getQuery()`: Retrieves the query from the url, which is the part of the url after the `?`
+* `url.getPath()`: Retrieves the path from the url
+* `url.getPath().contains("/add-message")`: Checks if the path retrieved from the url contains "/add-message" that is needed for the server to function properly
+* `query.substring(2, query.indexOf("&"))`: Retrieves the `String` from index 2 to the index of "&" in the query, representing the message to be shown in the chat
+* `query.substring(query.indexOf("&") + 6, query.length)`: Retrieves the `String` from the index of "&" + 6 to get rid of the user part of the query to get the username to be shown in the chat
+* `String.format(list)`: Returns the formatted `String`, which in this case, returns `list` as is that contains all the chats and users in the web server
