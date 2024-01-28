@@ -36,6 +36,8 @@ Here is what the web server shows when using `/add-message?s=Hello&user=jpolitz`
 * `String message = "Hello"`
 * `String query = "s=Hello&user=jpolitz"`
 * `String list = "jpolitz: Hello\n"`
+
+Before this request was run, the value of port was `null` and the `Strings` were empty. These values were all changed once the request was made.
 <br>
 
 Here is what the web server shows when using `/add-message?s=Hey&user=kbosler`:
@@ -58,3 +60,5 @@ Here is what the web server shows when using `/add-message?s=Hey&user=kbosler`:
 * `String message = "Hey"`
 * `String query = "s=Hey&user=kbosler"`
 * `String list = "jpolitz: Hello\nkbosler: Hey\n"`
+
+Before this request was made, the values of the fields were what they were before as stated above.
