@@ -15,7 +15,8 @@ Here is the code for `ChatServer`:
 
 Here is how the web server works when using `/add-message?s=Hello&user=jpolitz`:
 
-<img width="641" alt="image" src="https://github.com/katrinab2727/cse15l-lab-reports/assets/149338452/279a1b19-720c-4a14-b5d7-20ee741b2795">
+<img width="653" alt="image" src="https://github.com/katrinab2727/cse15l-lab-reports/assets/149338452/301d19b4-619f-43fd-91d9-23d5097879e3">
+
 
 **Methods Called**
 * `handleRequest(URI url)`: Takes in a URI parameter where the path and query are located
@@ -29,12 +30,13 @@ Here is how the web server works when using `/add-message?s=Hello&user=jpolitz`:
 * `Server.start(port, new Handler())`: Used to start the server by using the given port number while creating a new `Handler` object for the server
 
 **Values**
-* hiiiiii
-* 
+* `int port = 4000` 
+* `URI url = `
 <br>
 
 Here is how the web server works when using `/add-message?s=Hey&user=kbosler`:
-<img width="596" alt="image" src="https://github.com/katrinab2727/cse15l-lab-reports/assets/149338452/94d19f80-d55c-4267-ad05-e697f56117c5">
+<img width="634" alt="image" src="https://github.com/katrinab2727/cse15l-lab-reports/assets/149338452/ba957602-713a-4357-ad87-dcf127469dad">
+
 
 **Methods Called**
 * `handleRequest(URI url)`: Takes in a URI parameter where the path and query are located
