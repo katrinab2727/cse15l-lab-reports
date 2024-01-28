@@ -32,6 +32,10 @@ Here is how the web server works when using `/add-message?s=Hello&user=jpolitz`:
 **Values**
 * `int port = 4000` 
 * `URI url = https://0-0-0-0-4000-j272bidijnptkom0kott8e0i5s.us.edusercontent.com/add-message?s=Hello&user=jpolitz`
+* `String user = "jpolitz"`
+* `String message = "Hello"`
+* `String query = "s=Hello&user=jpolitz"`
+* `String list = "jpolitz: Hello\n"`
 <br>
 
 Here is how the web server works when using `/add-message?s=Hey&user=kbosler`:
@@ -50,3 +54,7 @@ Here is how the web server works when using `/add-message?s=Hey&user=kbosler`:
 **Values**
 * `int port 4000` (same port)
 * `URI url = https://0-0-0-0-4000-j272bidijnptkom0kott8e0i5s.us.edusercontent.com/add-message?s=Hey&user=kbosler`
+* `String user = "kbosler"`
+* `String message = "Hey"`
+* `String query = "s=Hey&user=kbosler"`
+* `String list = "jpolitz: Hello\nkbosler: Hey\n"`
