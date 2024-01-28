@@ -78,6 +78,7 @@ Before this request was made, the values of the fields were what they were befor
 <br>
 
 **Logging into my `ieng6` account without being asked for a password**
+<br>
 <img width="439" alt="image" src="https://github.com/katrinab2727/cse15l-lab-reports/assets/149338452/a9d74b63-b826-4080-8338-585279967541">
 
 
