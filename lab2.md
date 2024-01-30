@@ -68,6 +68,8 @@ Before this request was made, the values of the fields were what they were befor
 
 <img width="388" alt="image" src="https://github.com/katrinab2727/cse15l-lab-reports/assets/149338452/b5f94be3-75d8-41db-8b4d-0be04cef7664">
 
+The `.ssh` directory contains `id_ed25519` (private key), `id_ed25519.pub`, and `known_hosts` on my local computer.
+
 <br>
 
 **Absolute Path to my Public key for my SSH key for logging into ieng6**
