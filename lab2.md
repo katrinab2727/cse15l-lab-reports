@@ -67,6 +67,7 @@ Before this request was made, the values of the fields were what they were befor
 **Absolute Path to my Private Key**
 
 <img width="388" alt="image" src="https://github.com/katrinab2727/cse15l-lab-reports/assets/149338452/b5f94be3-75d8-41db-8b4d-0be04cef7664">
+<br>
 <img width="236" alt="image" src="https://github.com/katrinab2727/cse15l-lab-reports/assets/149338452/fbcbb017-0d75-4031-90b1-f77dbf79a864">
 
 
