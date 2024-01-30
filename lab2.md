@@ -70,9 +70,11 @@ Before this request was made, the values of the fields were what they were befor
 
 <br>
 
-**Absolute Path to my Public key**
+**Absolute Path to my Public key for my SSH key for logging into ieng6**
 
-<img width="388" alt="image" src="https://github.com/katrinab2727/cse15l-lab-reports/assets/149338452/b4a58653-e9a4-4d51-8568-50f30c531db4">
+<img width="272" alt="image" src="https://github.com/katrinab2727/cse15l-lab-reports/assets/149338452/240006ae-df0e-4944-bb15-c307ffe5fed2">
+
+`/home/linux/ieng6/oce/95/kbosler/.ssh` is the path that contains `authorized_keys`, `id_rsa`, and `id_rsa.pub` (the public key) that allows me to log into my `ieng6` account without being asked for a password.
 
 
 <br>
