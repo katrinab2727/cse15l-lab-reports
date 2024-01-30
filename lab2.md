@@ -86,5 +86,5 @@ The `/c/Users/katri/.ssh` directory contains `id_ed25519` (private key), `id_ed2
 <img width="439" alt="image" src="https://github.com/katrinab2727/cse15l-lab-reports/assets/149338452/a9d74b63-b826-4080-8338-585279967541">
 
 ## Part 3 - Reflection
-I have learned a lot about building and running a server from the last couple of labs. I learned about certain methods such as `getQuery()` and `getPath()` and how to use them to create a web server. Also, it was nice to be able to make a key and not have to keep using a password to log into `ieng6` remotely. Learning the commands `scp` and `mkdir` is useful as I have seen in lab.
+I have learned a lot about building and running a server from the last couple of labs. I learned about certain methods such as `getQuery()` and `getPath()` and how to use them to create a web server. Also, it was nice to be able to make a key and not have to keep using a password to log into `ieng6` remotely by creating a public and private key. Learning the commands `scp` and `mkdir` is useful as I have seen in lab.
 
