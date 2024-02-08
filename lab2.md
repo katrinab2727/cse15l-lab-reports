@@ -64,7 +64,7 @@ Here is what the web server shows when using `/add-message?s=Hey&user=kbosler`:
 Before this request was made, the values of the fields were what they were before as stated above.
 
 ## Part 2 - SSH
-**Absolute Path to my Private Key**
+**Absolute Path to my Private Key**: `/c/Users/katri/.ssh/id_ed25519`
 
 <img width="388" alt="image" src="https://github.com/katrinab2727/cse15l-lab-reports/assets/149338452/b5f94be3-75d8-41db-8b4d-0be04cef7664">
 <br>
