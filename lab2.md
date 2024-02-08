@@ -74,7 +74,7 @@ The `/c/Users/katri/.ssh` directory contains `id_ed25519` (private key), `id_ed2
 
 <br>
 
-**Absolute Path to my Public key for my SSH key for logging into ieng6**
+**Absolute Path to my Public key for my SSH key for logging into ieng6**: `/home/linux/ieng6/oce/95/kbosler/.ssh/authorized_keys`
 
 <img width="272" alt="image" src="https://github.com/katrinab2727/cse15l-lab-reports/assets/149338452/240006ae-df0e-4944-bb15-c307ffe5fed2">
 
