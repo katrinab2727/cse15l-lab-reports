@@ -70,7 +70,7 @@ Before this request was made, the values of the fields were what they were befor
 <br>
 <img width="236" alt="image" src="https://github.com/katrinab2727/cse15l-lab-reports/assets/149338452/fbcbb017-0d75-4031-90b1-f77dbf79a864">
 
-The /c/Users/katri/.ssh directory contains id_ed25519 (private key), id_ed25519.pub, and known_hosts on my local computer.
+The `/c/Users/katri/.ssh` directory contains id_ed25519 (private key), id_ed25519.pub, and known_hosts on my local computer.
 
 <br>
 
