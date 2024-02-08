@@ -78,13 +78,13 @@ The `/c/Users/katri/.ssh` directory contains `id_ed25519` (private key), `id_ed2
 
 <img width="272" alt="image" src="https://github.com/katrinab2727/cse15l-lab-reports/assets/149338452/240006ae-df0e-4944-bb15-c307ffe5fed2">
 
-`/home/linux/ieng6/oce/95/kbosler/.ssh` is the path that contains `authorized_keys`(where the copy of my public key is located), `id_rsa`, and `id_rsa.pub` that allows me to log into my `ieng6`.
+`/home/linux/ieng6/oce/95/kbosler/.ssh` is the path that contains `authorized_keys`(where the copy of my public key is located), `id_rsa`, and `id_rsa.pub` that allows me to log into my `ieng6` account.
 
 <br>
 
 <img width="480" alt="image" src="https://github.com/katrinab2727/cse15l-lab-reports/assets/149338452/912c3b65-2168-48b5-8d58-386bb06dbdf5">
 <br>
-Here is the code to copy my public key to the ieng6 account
+Here is the code to copy my public key to the `ieng6` account
 
 <br>
 
