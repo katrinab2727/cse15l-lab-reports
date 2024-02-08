@@ -78,7 +78,7 @@ The /c/Users/katri/.ssh directory contains id_ed25519 (private key), id_ed25519.
 
 <img width="272" alt="image" src="https://github.com/katrinab2727/cse15l-lab-reports/assets/149338452/240006ae-df0e-4944-bb15-c307ffe5fed2">
 
-The absolut path to my public key on the `ieng6` account is `/home/linux/ieng6/oce/95/kbosler/.ssh/id_rsa.pub`.
+`/home/linux/ieng6/oce/95/kbosler/.ssh` is the path that contains `authorized_keys`(where the copy of my public key is located), `id_rsa`, and `id_rsa.pub` that allows me to log into my `ieng6` account without being asked for a password.
 
 
 <br>
