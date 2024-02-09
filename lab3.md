@@ -33,7 +33,7 @@ public void testReverseInPlace() {
     assertArrayEquals(new int[]{3}, input1);
 }
 ```
-The input of an int array that is `{3}` does not induce a failure.
+The input of an `int` array that is `{3}` does not induce a failure.
 
 Symptoms: 
 <br>
