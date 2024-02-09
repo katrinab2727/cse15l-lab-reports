@@ -43,7 +43,7 @@ In the image above, the failure inducing input, `{1, 2, 3}` was put through the 
 
 <br>
 <img width="667" alt="image" src="https://github.com/katrinab2727/cse15l-lab-reports/assets/149338452/a44b157e-b971-45e0-9bb8-39c39a1a5091">
-<br>
+
 In the image above, the nonfailure inducing input passed. The input was an array of `{3}`, so its length was only one. Since the method passes, it shows that the method starts off correct in the beginning, but it starts to have bugs with longer arrays.
 
 
