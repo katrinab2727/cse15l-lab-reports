@@ -2,7 +2,7 @@
 
 ## Part 1 - Bugs
 
-Buggy Program:
+Buggy Program: `reverInPlace`
 
 ```
 static void reverseInPlace(int[] arr) {
