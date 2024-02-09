@@ -11,7 +11,7 @@ static void reverseInPlace(int[] arr) {
     }
 }
 ```
-JUnit test that is failure inducing:
+JUnit test that fails:
 ```
 @Test 
 public void testReverseInPlace() {
@@ -20,3 +20,4 @@ public void testReverseInPlace() {
     assertArrayEquals(new int[]{3, 2, 1}, input1);
 }
 ```
+The code inputs the `int` array of `{1, 2, 3}` that is failure inducing for the `reverseInPlace` method.
