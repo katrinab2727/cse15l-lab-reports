@@ -11,6 +11,8 @@ static void reverseInPlace(int[] arr) {
     }
 }
 ```
+<br>
+
 JUnit test that fails:
 ```
 @Test 
@@ -20,4 +22,8 @@ public void testReverseInPlace() {
     assertArrayEquals(new int[]{3, 2, 1}, input1);
 }
 ```
-The code inputs the `int` array of `{1, 2, 3}` that is failure inducing for the `reverseInPlace` method.
+The code inputs the `int` array of `{1, 2, 3}` that is failure inducing for the `reverseInPlace` method. The expexted output would be an array with values of `{3, 2, 1}`. However, the buggy program returned an output of `{3, 2, 3}`.
+<br>
+
+JUnit test that
+
