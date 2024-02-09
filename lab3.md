@@ -39,7 +39,7 @@ Symptoms:
 <br>
 <img width="728" alt="image" src="https://github.com/katrinab2727/cse15l-lab-reports/assets/149338452/731c6459-19e5-4d06-8d0b-ba5020912df1">
 <br>
-In the image above, the failure inducing input was put through the JUnit test. The expexted output would be an array with values of `{3, 2, 1}`. However, the buggy program returned an output of `{3, 2, 3}`. This shows how the method did not reverse the array correctly. It starts out correct, but the array differs at certain point.
+In the image above, the failure inducing input, `{1, 2, 3}` was put through the JUnit test. The expexted output would be an array with values of `{3, 2, 1}`. However, the buggy program returned an output of `{3, 2, 3}`. This shows how the method did not reverse the array correctly. It starts out correct, but the array differs at certain point.
 
 <br>
 <img width="667" alt="image" src="https://github.com/katrinab2727/cse15l-lab-reports/assets/149338452/a44b157e-b971-45e0-9bb8-39c39a1a5091">
