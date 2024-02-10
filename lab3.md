@@ -55,7 +55,7 @@ static void reverseInPlace(int[] arr) {
     }
 }
 ```
-<br>
+
 Code after:
 ```
 static void reverseInPlace(int[] arr) {
