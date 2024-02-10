@@ -35,7 +35,7 @@ public void testReverseInPlace() {
 ```
 The input of an `int` array that is `{3}` does not induce a failure.
 
-**Symptoms:**
+### **Symptoms:** ###
 <br>
 <img width="728" alt="image" src="https://github.com/katrinab2727/cse15l-lab-reports/assets/149338452/731c6459-19e5-4d06-8d0b-ba5020912df1">
 <br>
