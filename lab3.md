@@ -11,7 +11,7 @@ static void reverseInPlace(int[] arr) {
     }
 }
 ```
-<br>
+
 
 ### **JUnit test that fails:** ###
 ```
