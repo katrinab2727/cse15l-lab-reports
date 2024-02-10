@@ -2,7 +2,7 @@
 
 ## Part 1 - Bugs
 
-### **Buggy Program: `reverseInPlace`** ###
+### **Buggy Program: `reverseInPlace`**
 
 ```
 static void reverseInPlace(int[] arr) {
@@ -13,7 +13,7 @@ static void reverseInPlace(int[] arr) {
 ```
 
 
-### **JUnit test that fails:** ###
+### **JUnit test that fails:**
 ```
 public void testReverseInPlace() {
     int[] input1 = {1, 2, 3};
@@ -25,7 +25,7 @@ The code inputs the `int` array of `{1, 2, 3}` that is failure inducing for the 
 
 <br>
 
-### **JUnit test that passes:** ###
+### **JUnit test that passes:**
 ```
 public void testReverseInPlace() {
     int[] input1 = {3};
@@ -35,7 +35,7 @@ public void testReverseInPlace() {
 ```
 The input of an `int` array that is `{3}` does not induce a failure.
 
-### **Symptoms:** ###
+### **Symptoms:**
 <br>
 <img width="728" alt="image" src="https://github.com/katrinab2727/cse15l-lab-reports/assets/149338452/731c6459-19e5-4d06-8d0b-ba5020912df1">
 <br>
@@ -48,7 +48,7 @@ In the image above, the failure inducing input, `{1, 2, 3}` was put through the 
 
 In the image above, the nonfailure inducing input passed. The input was an array of `{3}`, so its length was only one. Since the method passes, it shows that the method starts off correct in the beginning, but it starts to have bugs with longer arrays.
 
-### **Fixing the bug:** ###
+### **Fixing the bug:**
 
 **Code before:**
 ```
