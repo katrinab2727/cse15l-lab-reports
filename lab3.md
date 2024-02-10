@@ -47,6 +47,7 @@ In the image above, the failure inducing input, `{1, 2, 3}` was put through the 
 In the image above, the nonfailure inducing input passed. The input was an array of `{3}`, so its length was only one. Since the method passes, it shows that the method starts off correct in the beginning, but it starts to have bugs with longer arrays.
 
 Fixing the bug:
+
 Code before:
 ```
 static void reverseInPlace(int[] arr) {
