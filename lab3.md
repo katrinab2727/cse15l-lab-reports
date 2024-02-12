@@ -93,6 +93,31 @@ The `grep -r` command reads all of the files recursively in the given path for t
 
 Source: https://man7.org/linux/man-pages/man1/grep.1.html
 
+### `grep -i`
+```
+$ grep -i "Base Pair" technical/plos/journal.pbio.0020190.txt
+        sequence, which is a specific series of eight base pairs in the DNA of the bacterial
+        chromosomes, on the order of one or two thousand base pairs of DNA (or less—their length is
+```
+
+```
+$ grep -i "hIgH inCreAse" technical/biomed/1477-7827-1-13.txt
+          from PT4 showed a high increase when compared to the PT4
+```
+Combo: `grep -ri`
+```
+$ grep -ri "BASE PAIR" technical/plos
+technical/plos/journal.pbio.0020190.txt:        sequence, which is a specific series of eight base pairs in the DNA of the bacterial
+technical/plos/journal.pbio.0020190.txt:        chromosomes, on the order of one or two thousand base pairs of DNA (or less—their length is
+technical/plos/journal.pbio.0020223.txt:        Watson-Crick base pairing, the proximity of the synthetic reactive groups elevates their
+```
+The `grep -i` command searches for a string with case insensitvity in the given file. You can also use `grep -ri` to search recursively with case insentivity, which is helpful since the string can be capitalized at the start of a sentence.
+
+Source: https://www.geeksforgeeks.org/grep-command-in-unixlinux/
+
+
+
+
 
 
 
