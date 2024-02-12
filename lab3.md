@@ -39,7 +39,7 @@ The input of an `int` array that is `{3}` does not induce a failure.
 <br>
 <img width="728" alt="image" src="https://github.com/katrinab2727/cse15l-lab-reports/assets/149338452/731c6459-19e5-4d06-8d0b-ba5020912df1">
 <br>
-In the image above, the failure inducing input, `{1, 2, 3}` was put through the JUnit test. The expexted output would be an array with values of `{3, 2, 1}`. However, the buggy program returned an output of `{3, 2, 3}`. They differed at the 2nd index of the array. This shows how the method did not reverse the array correctly. It starts out correct, but the array differs at certain point.
+In the image above, the failure inducing input, `{1, 2, 3}` was put through the JUnit test. The expexted output would be an array with values of `{3, 2, 1}`. However, the buggy program returned an output of `{3, 2, 3}`. They differed at the index 2 of the array. This shows how the method did not reverse the array correctly. It starts out correct, but the array differs at certain point.
 
 <br>
 <br>
@@ -74,7 +74,7 @@ static void reverseInPlace(int[] arr) {
 }
 ```
 
-The code is fixed because a copy array of the original one was used when creating the reversed array to make sure the correct values are retrieved for each index. The code had a bug previously since it was overwritting values in the beginning indices before they were correctly put in the end of the array. This is why in the test case, the method returned `{3, 2, 3}` instead of `{3, 2, 1}`. The original 0 index with the value of `1` was replaced with `3`. When the array tried to retrieve the first index to get the value of `1`, it was already overwritten with `3`. By instead retriving the values with a copy of the original array, no values are overwritten and the method now works correctly.
+The code is fixed because a copy array of the original one was used when creating the reversed array to make sure the correct values are retrieved for each index. The code had a bug previously since it was overwritting values in the beginning indices before they were correctly put in the end of the array. This is why in the test case, the method returned `{3, 2, 3}` instead of `{3, 2, 1}`. The original 0 index with the value of `1` was replaced with `3`. When the array tried to retrieve the zero index to get the value of `1`, it was already overwritten with `3`. By instead retriving the values with a copy of the original array, no values are overwritten and the method now works correctly and passes the both tests.
 
 ## Part 2 - Researching Commands: `grep`
 
@@ -91,7 +91,7 @@ $ grep -r "high increase" technical/biomed
 technical/biomed/1477-7827-1-13.txt:          from PT4 showed a high increase when compared to the PT4
 ```
 
-The `grep -r` command reads all of the files recursively in the given path for the specified string. The `plos` and `biomed` directory files were searched for the specified string.
+The `grep -r` command reads all of the files recursively in the given path for the specified string. The files in the `plos` and `biomed` directory were searched for the specified string.
 
 Source: https://man7.org/linux/man-pages/man1/grep.1.html
 
@@ -115,7 +115,7 @@ technical/plos/journal.pbio.0020190.txt:        chromosomes, on the order of one
 technical/plos/journal.pbio.0020223.txt:        Watson-Crick base pairing, the proximity of the synthetic reactive groups elevates their
 ```
 
-The `grep -i` command searches for a string with case insensitvity in the given file. You can also use `grep -ri` to search recursively with case insentivity, which is helpful since the string can be capitalized at the start of a sentence.
+The `grep -i` command searches for a string with case insensitvity in the given file, which is helpful since the string can be capitalized at the start of a sentence. You can also use `grep -ri` to search recursively with case insentivity.
 
 Source: https://www.geeksforgeeks.org/grep-command-in-unixlinux/
 
@@ -184,7 +184,7 @@ $ grep -n "high increase" technical/biomed/1477-7827-1-13.txt
 636:          from PT4 showed a high increase when compared to the PT4
 ```
 
-The `grep -n` command shows the line numbers of the file with the line matched. It can be useful when trying to findout where a certain string is.
+The `grep -n` command shows the line numbers of the file with the line matched with the given string. It can be useful when trying to findout where a certain string is.
 
 Source: https://www.geeksforgeeks.org/grep-command-in-unixlinux/
 
