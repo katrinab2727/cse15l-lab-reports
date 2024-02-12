@@ -184,7 +184,7 @@ $ grep -n "high increase" technical/biomed/1477-7827-1-13.txt
 636:          from PT4 showed a high increase when compared to the PT4
 ```
 
-The `grep -n` command shows the line numbers of the file with the line matched with the given string. It can be useful when trying to findout where a certain string is.
+The `grep -n` command shows the line numbers of the file with the line matched with the given string. It can be useful when trying to find out where a certain string is.
 
 Source: https://www.geeksforgeeks.org/grep-command-in-unixlinux/
 
