@@ -115,6 +115,53 @@ The `grep -i` command searches for a string with case insensitvity in the given 
 
 Source: https://www.geeksforgeeks.org/grep-command-in-unixlinux/
 
+### `grep -v`
+```
+$ grep -v "the" technical/plos/pmed.0020191.txt
+
+
+
+
+
+        The excellent article by Jordan Paradise, Lori B. Andrews, and colleagues, “Ethics.
+        biohistorical research; instead, it points out that such investigations are currently
+        taking place without guidelines—ethical, scientific, moral, or religious. The question
+        remains: if such guidelines were to be established, what individuals, institutions,
+        governments, medical examiners, family members, or intrepid biographers are to be given
+```
+$ grep -v "a" technical/biomed/1471-2490-3-2.txt
+
+
+
+
+
+
+        Methods
+        to the lower border of symphysis pubis using 5 mm
+
+
+        Results
+
+
+        Discussion
+        on this subject.
+
+
+        Conclusion
+        diverticulitis.
+
+
+        Competing interests
+
+
+        Authors' contribution
+        writing
+```
+The `grep -v` command is an inverted version of `grep` since it only returns non-matching lines. It searches the given file and excludes any successful matches.
+
+Source: https://www.redhat.com/sysadmin/how-to-use-grep
+
+
 
 
 
