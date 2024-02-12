@@ -169,6 +169,26 @@ The `grep -v` command is an inverted version of `grep` since it only returns non
 
 Source: https://www.redhat.com/sysadmin/how-to-use-grep
 
+### `grep -n`
+
+```
+$ grep -n "the" technical/plos/pmed.0020191.txt
+7:        Constructing Ethical Guidelines for Biohistory” [1], neither advocates nor argues against
+12:        permission? Who is to decide what is “historically significant”? Not to mention the
+13:        meta-question: who is to decide who is to decide? I apologize to the authors if my brief
+14:        comments [2] implied that they took a position on this issue.
+```
+
+```
+$ grep -n "high increase" technical/biomed/1477-7827-1-13.txt
+636:          from PT4 showed a high increase when compared to the PT4
+```
+
+The `grep -n` command shows the line numbers of the file with the line matched. It can be useful when trying to findout where a certain string is.
+
+Source: https://www.geeksforgeeks.org/grep-command-in-unixlinux/
+
+
 
 
 
