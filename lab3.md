@@ -77,6 +77,7 @@ static void reverseInPlace(int[] arr) {
 The code is fixed because a copy array of the original one was used when creating the reversed array to make sure the correct values are retrieved for each index. The code had a bug previously since it was overwritting values in the beginning indices before they were correctly put in the end of the array. This is why in the test case, the method returned `{3, 2, 3}` instead of `{3, 2, 1}`. The original 0 index with the value of `1` was replaced with `3`. When the array tried to retrieve the first index to get the value of `1`, it was already overwritten with `3`. By instead retriving the values with a copy of the original array, no values are overwritten and the method now works correctly.
 
 ## Part 2 - Researching Commands: `grep`
+
 ### `grep -r`
 ```
 $ grep -r "base pair" technical/plos
@@ -89,9 +90,11 @@ technical/plos/journal.pbio.0020223.txt:        Watson-Crick base pairing, the p
 $ grep -r "high increase" technical/biomed
 technical/biomed/1477-7827-1-13.txt:          from PT4 showed a high increase when compared to the PT4
 ```
+
 The `grep -r` command reads all of the files recursively in the given path for the specified string. The `plos` and `biomed` directory files were searched for the specified string.
 
 Source: https://man7.org/linux/man-pages/man1/grep.1.html
+
 
 ### `grep -i`
 ```
@@ -111,9 +114,11 @@ technical/plos/journal.pbio.0020190.txt:        sequence, which is a specific se
 technical/plos/journal.pbio.0020190.txt:        chromosomes, on the order of one or two thousand base pairs of DNA (or less—their length is
 technical/plos/journal.pbio.0020223.txt:        Watson-Crick base pairing, the proximity of the synthetic reactive groups elevates their
 ```
+
 The `grep -i` command searches for a string with case insensitvity in the given file. You can also use `grep -ri` to search recursively with case insentivity, which is helpful since the string can be capitalized at the start of a sentence.
 
 Source: https://www.geeksforgeeks.org/grep-command-in-unixlinux/
+
 
 ### `grep -v`
 ```
@@ -128,6 +133,8 @@ $ grep -v "the" technical/plos/pmed.0020191.txt
         taking place without guidelines—ethical, scientific, moral, or religious. The question
         remains: if such guidelines were to be established, what individuals, institutions,
         governments, medical examiners, family members, or intrepid biographers are to be given
+```
+
 ```
 $ grep -v "a" technical/biomed/1471-2490-3-2.txt
 
@@ -157,6 +164,7 @@ $ grep -v "a" technical/biomed/1471-2490-3-2.txt
         Authors' contribution
         writing
 ```
+
 The `grep -v` command is an inverted version of `grep` since it only returns non-matching lines. It searches the given file and excludes any successful matches.
 
 Source: https://www.redhat.com/sysadmin/how-to-use-grep
