@@ -85,6 +85,15 @@ technical/plos/journal.pbio.0020190.txt:        chromosomes, on the order of one
 technical/plos/journal.pbio.0020223.txt:        Watson-Crick base pairing, the proximity of the synthetic reactive groups elevates their
 ```
 
+```
+$ grep -r "high increase" technical/biomed
+technical/biomed/1477-7827-1-13.txt:          from PT4 showed a high increase when compared to the PT4
+```
+The `grep -r` command reads all of the files recursively in the given path for the specified string. The `plos` and `biomed` directory files were searched for the specified string.
+
+Source: https://man7.org/linux/man-pages/man1/grep.1.html
+
+
 
 
 
