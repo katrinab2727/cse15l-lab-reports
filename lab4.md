@@ -65,6 +65,13 @@ Keys Pressed: `<up><enter>`
 I was able to run the tests again by using the command from my command history. They now passed due to the edit that fixed code.
 
 
+### Step 6 - Commit and push the resulting change to my Github account
 
+<img width="608" alt="image" src="https://github.com/katrinab2727/cse15l-lab-reports/assets/149338452/881f01dc-87e0-4060-8f7e-d566d9647a1c">
 
+Keys Pressed: `git add L<tab>.j<tab><enter> git commit -m "lab 4 report - vim :D" && git push origin main`
+
+**Command run: `git add ListExamples.java` and `git commit -m "lab 4 report - vim :D" && git push origin main`**
+
+The first command added the changes to the file to get rid of the bug and I used the previously mentioned shortcut to help run this command by using `<tab>. I did not have the second command in my history, so I had to type it all. The command commits the changes made locally to github along with the message "lab 4 report - vim :D". It then pushes the commited changes to the main branch of the remote repository named origin.
 
