@@ -28,6 +28,7 @@ I did not have this command in my command history, so I had to type it all out. 
 Keys Pressed: `cd l<tab><enter> bash test.sh<enter>`
 
 Commands run: `cd lab7/` and `bash test.sh`
+
 The first command changes the working directoy to the `lab7/` directory. By using `<tab>` after only typing `l`, the only directory starting with `l` was brought up as a shortcut. I then ran the tests by using the `test.sh` script that runs the test library and test file.
 
 ### Step 4 - Edit the code file to fix the failing test
