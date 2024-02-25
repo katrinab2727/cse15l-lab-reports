@@ -8,7 +8,7 @@
 
 Keys Pressed: `<up><enter>`
 
-**Command run: `ssh kbosler@ieng6.ucsd.edu`**
+Command run: `ssh kbosler@ieng6.ucsd.edu`
 
 I had this command in my command history. It was the most recent command I typed in my local computer's terminal, so only one `<up>` was needed. The command logs me onto the CSE server using ssh for the ieng6 machine.
 
@@ -18,7 +18,7 @@ I had this command in my command history. It was the most recent command I typed
 
 Keys Pressed: `git clone git@github.com:katrinab2727/lab7.git`
 
-**Command run: `git clone git@github.com:katrinab2727/lab7.git1`**
+Command run: `git clone git@github.com:katrinab2727/lab7.git1`
 I did not have this command in my command history, so I had to type it all out. This command clones the directory from Github to my current server on the ieng6 machine.
 
 ### Step 3 - Run the tests, demonstrating that they fail
@@ -27,7 +27,7 @@ I did not have this command in my command history, so I had to type it all out. 
 
 Keys Pressed: `cd l<tab><enter> bash test.sh<enter>`
 
-**Commands run: `cd lab7/` and `bash test.sh`**
+Commands run: `cd lab7/` and `bash test.sh`
 The first command changes the working directoy to the `lab7/` directory. By using `<tab>` after only typing `l`, the only directory starting with `l` was brought up as a shortcut. I then ran the tests by using the `test.sh` script that runs the test library and test file.
 
 ### Step 4 - Edit the code file to fix the failing test
@@ -35,7 +35,7 @@ The first command changes the working directoy to the `lab7/` directory. By usin
 <img width="596" alt="image" src="https://github.com/katrinab2727/cse15l-lab-reports/assets/149338452/e07b3895-e5f1-4939-8db7-512e17f9ca8b">
 
 Keys Pressed: `vim L<tab>.j<tab><enter> 44Gexi2<esc>:wq<enter>
-**Command run: `vim ListExamples.java`
+Command run: `vim ListExamples.java`
 
 The command runs `vim` on the java file to edit it from the terminal. 
 
