@@ -54,6 +54,7 @@ The command runs `vim` on the java file to edit it from the terminal.
 
 `:wq`: saves the changes and exits `vim`
 
+### Step 5 - Run the tests, demonstrating that they now succeed
 
 
 
