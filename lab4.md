@@ -56,6 +56,13 @@ The command runs `vim` on the java file to edit it from the terminal.
 
 ### Step 5 - Run the tests, demonstrating that they now succeed
 
+<img width="338" alt="image" src="https://github.com/katrinab2727/cse15l-lab-reports/assets/149338452/a24abf71-141c-4e35-8147-5389effaa5b9">
+
+Keys Pressed: `<up><enter>`
+
+**Command run: bash test.sh**
+
+I was able to run the tests again by using the command from my command history. They now passed due to the edit that fixed code.
 
 
 
