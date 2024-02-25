@@ -35,6 +35,7 @@ The first command changes the working directoy to the `lab7/` directory. By usin
 <img width="596" alt="image" src="https://github.com/katrinab2727/cse15l-lab-reports/assets/149338452/e07b3895-e5f1-4939-8db7-512e17f9ca8b">
 
 Keys Pressed: `vim L<tab>.j<tab><enter> 44Gexi2<esc>:wq<enter>
+
 Command run: `vim ListExamples.java`
 
 The command runs `vim` on the java file to edit it from the terminal. 
