@@ -10,12 +10,26 @@ Keys Pressed: `<up><enter>`
 
 **Command run: `ssh kbosler@ieng6.ucsd.edu`**
 
-I had this command in my command history. It was the most recent command I typed in my local computer's terminal after lab, so only one `<up>` was needed. The command logs me onto the CSE server using ssh for the ieng6 machine.
+I had this command in my command history. It was the most recent command I typed in my local computer's terminal, so only one `<up>` was needed. The command logs me onto the CSE server using ssh for the ieng6 machine.
 
-### Clone fork of the repository
+### Step 2 - Clone fork of the repository
 
 <img width="500" alt="image" src="https://github.com/katrinab2727/cse15l-lab-reports/assets/149338452/2c0e9810-44e0-49a0-b391-133c023487a8">
 
 Keys Pressed: `git clone git@github.com:katrinab2727/lab7.git`
 
 **Command run: `git clone git@github.com:katrinab2727/lab7.git1`**
+I did not have this command in my command history, so I had to type it all out. This command clones the directory from Github to my current server on the ieng6 machine.
+
+### Step 3 - Run the tests, demonstrating that they fail
+
+<img width="594" alt="image" src="https://github.com/katrinab2727/cse15l-lab-reports/assets/149338452/72089b58-4c3b-4ade-ab2f-d9187107f601">
+
+Keys Pressed: `cd l<tab><enter> bash test.sh<enter>`
+
+**Commands run: `cd lab7/` and `bash test.sh`**
+The first command changes the working directoy to the `lab7/` directory. By using `<tab>` after only typing `l`, the only directory starting with `l` was brought up as a shortcut. I then ran the tests by using the `test.sh` script that runs the test library and test file.
+
+
+
+
