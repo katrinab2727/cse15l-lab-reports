@@ -36,6 +36,7 @@ The first command changes the working directoy to the `lab7/` directory. By usin
 
 Keys Pressed: `vim L<tab>.j<tab><enter> 44Gexi2<esc>:wq<enter>
 **Command run: `vim ListExamples.java`
+
 The command runs `vim` on the java file to edit it from the terminal. 
 
 `44G`: brings the cursor to line 44, which is where the edit needs to be made. 
