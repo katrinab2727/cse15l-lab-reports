@@ -52,7 +52,7 @@ The command runs `vim` on the java file to edit it from the terminal.
 
 `<esc>`: changes back to normal mode
 
-`:wq`: saves the changes and exits `vim`
+`:wq`: saves the changes and quits `vim`
 
 ### Step 5 - Run the tests, demonstrating that they now succeed
 
