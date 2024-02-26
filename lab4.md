@@ -58,7 +58,7 @@ The command runs `vim` on the java file to edit it from the terminal.
 
 <img width="338" alt="image" src="https://github.com/katrinab2727/cse15l-lab-reports/assets/149338452/a24abf71-141c-4e35-8147-5389effaa5b9">
 
-Keys Pressed: `<up><enter>`
+Keys Pressed: `<up><up><enter>`
 
 **Command run: bash test.sh**
 
