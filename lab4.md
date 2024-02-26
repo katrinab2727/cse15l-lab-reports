@@ -26,7 +26,7 @@ I did not have this command in my command history, so I had to type it all out. 
 
 <img width="594" alt="image" src="https://github.com/katrinab2727/cse15l-lab-reports/assets/149338452/72089b58-4c3b-4ade-ab2f-d9187107f601">
 
-Keys Pressed: `cd l<tab><enter> bash test.sh<enter>`
+Keys Pressed: `cd l<tab><enter>bash test.sh<enter>`
 
 **Commands run: `cd lab7/` and `bash test.sh`**
 
@@ -36,7 +36,7 @@ The first command changes the working directoy to the `lab7/` directory. By usin
 
 <img width="596" alt="image" src="https://github.com/katrinab2727/cse15l-lab-reports/assets/149338452/e07b3895-e5f1-4939-8db7-512e17f9ca8b">
 
-Keys Pressed: `vim L<tab>.j<tab><enter> 44Gexi2<esc>:wq<enter>`
+Keys Pressed: `vim L<tab>.j<tab><enter>44Gexi2<esc>:wq<enter>`
 
 **Command run: `vim ListExamples.java`**
 
@@ -69,7 +69,7 @@ I was able to run the tests again by using the command from my command history. 
 
 <img width="608" alt="image" src="https://github.com/katrinab2727/cse15l-lab-reports/assets/149338452/881f01dc-87e0-4060-8f7e-d566d9647a1c">
 
-Keys Pressed: `git add L<tab>.j<tab><enter> git commit -m "lab 4 report - vim :D" && git push origin main`
+Keys Pressed: `git add L<tab>.j<tab><enter>git commit -m "lab 4 report - vim :D" && git push origin main`
 
 **Command run: `git add ListExamples.java` and `git commit -m "lab 4 report - vim :D" && git push origin main`**
 
