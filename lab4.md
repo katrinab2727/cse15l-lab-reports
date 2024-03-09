@@ -73,5 +73,5 @@ Keys Pressed: `git add L<tab>.j<tab><enter>git commit -m "lab 4 report - vim :D"
 
 **Command run: `git add ListExamples.java` and `git commit -m "lab 4 report - vim :D" && git push origin main`**
 
-The first command added the changes to the file to get rid of the bug and I used the previously mentioned shortcut to help run this command by using `<tab>`. I did not have the second command in my history, so I had to type it all. The command commits the changes made locally to github along with the message "lab 4 report - vim :D". It then pushes the commited changes to the main branch of the remote repository.
+The first command added the changes made to the file that got rid of the bugs to Git's staging area to prepare for commiting. I used the previously mentioned shortcut to help run this command by using `<tab>`. I did not have the second command in my history, so I had to type it all. The `git commit` command saves the changes made locally with the `git add` command to the local repository. `git push` then pushes the commited changes in the local repository to GitHub that hosts the remote repository.
 
