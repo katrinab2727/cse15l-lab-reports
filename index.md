@@ -6,3 +6,5 @@
 > [Lab 3](https://katrinab2727.github.io/cse15l-lab-reports/lab3)
 >
 > [Lab 4](https://katrinab2727.github.io/cse15l-lab-reports/lab4)
+> 
+> [Lab 5](https://katrinab2727.github.io/cse15l-lab-reports/lab5)
