@@ -132,6 +132,11 @@ I suggest adding `echo` commands to see where exactly the bug is in the code. Yo
 I was able to figure out that I had an issue with my `CPATH`, which I fixed and there was another issue with how my `failures` variable is empty when all the tests pass. I created an if statement that catches this case and now my code works.
 <img width="525" alt="image" src="https://github.com/katrinab2727/cse15l-lab-reports/assets/149338452/2306df58-c1e2-4c53-9e99-e31b02f23a93">
 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Thanks for the help! `echo` is a useful command.
+
+### Part 2 - Reflection
+Using bash scripts like the grade script one we made was cool because you do not have to type out all of the same commands over and over again. Some of the format was confusing to me though. I also thought that using the Java Debugger was very useful because you can stop at certain lines and check variable values. It is nice to not have to trace through all your code yourself and I will most likely use jdb more in the future.
+
 
 
 
