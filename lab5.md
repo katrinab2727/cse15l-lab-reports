@@ -116,6 +116,12 @@ The full command line (or lines) I ran to trigger the bug:
 
 I believe a part of my `grade.sh` is not working properly with the tests. Thanks for the help!
 
+Comment ···  
+
+#### 1 Answer  
+Katrina Bosler <span style="font-size:0.5">STAFF</span>  
+3 hours ago  
+
 
 
 
