@@ -3,6 +3,7 @@
 ## Putting it All Together
 
 ### Part 1 - Debugging Scenario
+### EdStem Post
 
 #### Bug in my grade.sh &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; #389
 Anonymous &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;80 views
