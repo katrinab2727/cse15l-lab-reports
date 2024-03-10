@@ -121,7 +121,12 @@ Comment ···
 #### 1 Answer  
 Katrina Bosler <span style="font-size:0.5">STAFF</span>  
 3 hours ago  
+Hi,
 
+I suggest adding `echo` commands to see where exactly the bug is in the code. You can also add it to see how many tests your bash script is taking into account since you have two tests, but only one is being recorded in the score output of the student submission.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Anonymous
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
 
 
