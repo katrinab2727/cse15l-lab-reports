@@ -24,7 +24,7 @@ This is my file and directory structure:
     - TestListExamples.java`
 ```
 
-Here is my code for grade.sh before fixing the bug:
+Here is my code for `grade.sh` before fixing the bug:
 ```
 CPATH='..:..lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar'
 
@@ -109,6 +109,10 @@ public class TestListExamples {
   }
 }
 ```
+
+The full command line (or lines) I ran to trigger the bug:
+`bash grade.sh https://github.com/ucsd-cse15l-f22/list-methods-corrected`
+
 
 
 
