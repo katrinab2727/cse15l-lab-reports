@@ -127,7 +127,8 @@ I suggest adding `echo` commands to see where exactly the bug is in the code. Yo
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Anonymous
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; I looked at some of my code by using echo: <img width="698" alt="image" src="https://github.com/katrinab2727/cse15l-lab-reports/assets/149338452/7d8500d6-7403-4dd5-a2a9-32462312cd95"> I was able to figure out that I had an issue with my CPATH, which I fixed and then was another issue with how my FAILURES variable is empty when all the tests pass. I created an if statement that catches this case and now my code works. <img width="525" alt="image" src="https://github.com/katrinab2727/cse15l-lab-reports/assets/149338452/2306df58-c1e2-4c53-9e99-e31b02f23a93">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; I looked at some of my code by using echo: <img width="698" alt="image" src="https://github.com/katrinab2727/cse15l-lab-reports/assets/149338452/7d8500d6-7403-4dd5-a2a9-32462312cd95"> 
+I was able to figure out that I had an issue with my CPATH, which I fixed and then was another issue with how my FAILURES variable is empty when all the tests pass. I created an if statement that catches this case and now my code works. <img width="525" alt="image" src="https://github.com/katrinab2727/cse15l-lab-reports/assets/149338452/2306df58-c1e2-4c53-9e99-e31b02f23a93">
 
 
 
