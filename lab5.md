@@ -111,7 +111,10 @@ public class TestListExamples {
 ```
 
 The full command line (or lines) I ran to trigger the bug:
+
 `bash grade.sh https://github.com/ucsd-cse15l-f22/list-methods-corrected`
+
+I believe a part of my `grade.sh` is not working properly with the tests. Thanks for the help!
 
 
 
