@@ -8,7 +8,7 @@
 #### Bug in my grade.sh &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; #389
 Anonymous &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;80 views
 
-My grade.sh is not printing the correct number of tests and is failing correct output.
+My grade.sh is not printing the correct number of tests and is failing a correct student submission.
 
 <img width="746" alt="image" src="https://github.com/katrinab2727/cse15l-lab-reports/assets/149338452/18353f37-f1f5-48c5-ada8-85963b137008">
 
